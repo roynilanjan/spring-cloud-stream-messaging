@@ -11,13 +11,9 @@ It consists of four independent microservices.
 **account-service** and 
 **product-service**
 
-Communication between **order-service** the **account-service** happens through orders-in and orders-out exchanges . The default topic exchange in spring cloud stream has been overidden with direct exchange to implement the point to point communication . 
+Communication between **order-service** and the **account-service** happens through orders-in and orders-out exchanges . The default topic exchange in spring cloud stream has been overidden with direct exchange to implement a point to point communication . 
 
-Once the Order-service receives the order it saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order from the broker and updates the status to the client when requested over the endpoint.  
-
-
-
-in order to get the details of the customer and his acount balance. Upon receiving the message,account-service calls the  **product-service** calls the method exposed by product-service in order to find out its price. Upon receiving the product price details account-service withdraws money from the customer account and then sends back the response to order-service with the current order status. through the message broker. The order-service saves new orders,sends it to a message broker, and then responds to the client that the order has been approved for processing. The main goal of the currently discussed example is to show a point-to-point communication. Here messages would be received by only one application, account-service. The following diagram that illustrates the sample system architecture:
+Once the Order-service receives the order it saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order status from the message and updates the status to the client when requested over the endpoint.  
 
 
 ![order service](https://user-images.githubusercontent.com/9249786/50053873-f11a5100-0161-11e9-80e7-af6bb3b96976.png)
