@@ -11,13 +11,13 @@ It consists of four independent microservices.
 **account-service** and 
 **product-service**
 
-Communication between **order-service** and the **account-service** happens through orders-in and orders-out channels . Order-service is the message source application,
-so it sends messages to the output channel. Then, on the other hand, account-service
+Communication between **order-service** and the **account-service** happens through orders-in and orders-out channels .Since order-service is the source of the message ,
+it sends messages to it's output channel. On the other hand, account-service
 listens for incoming messages on the input channel. If the order-service output channel
 and account-service input channel do not refer to the same destination on the broker, the
-communication between them would fail.Also the default topic exchange in spring cloud stream has been overidden with direct exchange to implement a point to point communication . 
+communication between them would fail.This configuration has been provided in the application.yml of the order-service and the account-service. Also the default topic exchange in spring cloud stream has been overidden with direct exchange to implement a point to point communication . 
 
-Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order status from the message and updates the status to the client when requested over the endpoint. Following diagram shows the architecture of the application.
+Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the orders-out channel. Account-service receives the order from the orders-out channel , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the orders-in channel . Order-service receives the order status from the orders-in channel and updates the status to the client when requested over an endpoint. Following diagram shows the architecture of the application.
 
 
 ![shopping-cart](https://user-images.githubusercontent.com/9249786/51244567-6a000900-19ab-11e9-8d40-b08fe2a6b28f.png)
