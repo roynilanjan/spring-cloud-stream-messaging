@@ -16,7 +16,7 @@ Communication between **order-service** and the **account-service** happens thro
 Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order status from the message and updates the status to the client when requested over the endpoint. Following diagram shows the architecture of the application.
 
 
-![shopping-cart](https://user-images.githubusercontent.com/9249786/51239394-446d0280-199f-11e9-84b5-2dfa1716825d.png)
+![shopping-cart](https://user-images.githubusercontent.com/9249786/51241392-b7787800-19a3-11e9-8f18-72810295eef7.png)
 
 
 
