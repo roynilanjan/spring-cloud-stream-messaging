@@ -16,7 +16,7 @@ Communication between **order-service** and the **account-service** happens thro
 Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order status from the message and updates the status to the client when requested over the endpoint. Following diagram shows the architecture of the application.
 
 
-![order service](https://user-images.githubusercontent.com/9249786/50053873-f11a5100-0161-11e9-80e7-af6bb3b96976.png)
+
 
 
 
@@ -26,3 +26,5 @@ Call to the Order-service from an external client comes through the API gateway 
 ###### Spring Cloud Stream: https://docs.google.com/presentation/d/1VWO8s_1OvAieITS4W-DajNMu6eZFGn4UmwuS1FVivQQ/edit?usp=sharing
 ###### Spring Boot: http://www.slideshare.net/roynilanjan/spring-boot-for-buidling-microservices
 ###### Spring Cloud Data Flow: https://www.slideshare.net/roynilanjan/building-cloud-native-data-microservice
+
+Happy Messaging !
