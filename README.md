@@ -11,7 +11,11 @@ It consists of four independent microservices.
 **account-service** and 
 **product-service**
 
-Communication between **order-service** and the **account-service** happens through orders-in and orders-out exchanges . The default topic exchange in spring cloud stream has been overidden with direct exchange to implement a point to point communication . 
+Communication between **order-service** and the **account-service** happens through orders-in and orders-out channels . Order-service is the message source application,
+so it sends messages to the output channel. Then, on the other hand, account-service
+listens for incoming messages on the input channel. If the order-service output channel
+and account-service input channel do not refer to the same destination on the broker, the
+communication between them would fail.The default topic exchange in spring cloud stream has been overidden with direct exchange to implement a point to point communication . 
 
 Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the broker. Account-service receives the order , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the broker . Order-service receives the order status from the message and updates the status to the client when requested over the endpoint. Following diagram shows the architecture of the application.
 
