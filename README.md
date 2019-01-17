@@ -26,8 +26,8 @@ Call to the Order-service from an external client comes through the API gateway 
 
 ##### For the newbies to Spring Cloud stream , Spring Boot and AMQP :
 
-###### RabbitMQ with AMQP: https://docs.google.com/presentation/d/1ruNrcb6T2j_1IAjbBMst4Tbh6fENCO6nM566JJz9Yw4/edit?usp=sharing
-###### Spring Cloud Stream: https://docs.google.com/presentation/d/1VWO8s_1OvAieITS4W-DajNMu6eZFGn4UmwuS1FVivQQ/edit?usp=sharing
+###### RabbitMQ with AMQP: https://www.slideshare.net/roynilanjan/the-amqp-model
+###### Spring Cloud Stream: https://www.slideshare.net/roynilanjan/spring-cloud-stream-overview
 ###### Spring Boot: http://www.slideshare.net/roynilanjan/spring-boot-for-buidling-microservices
 ###### Spring Cloud Data Flow: https://www.slideshare.net/roynilanjan/building-cloud-native-data-microservice
 
