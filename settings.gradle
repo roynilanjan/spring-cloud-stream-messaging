@@ -1,0 +1,14 @@
+rootProject.name = 'spring-cloud-stream-messaging'
+include ':account-service'
+include ':discovery-service'
+include ':gateway-service'
+include ':order-service'
+include ':product-service'
+include ':messaging-common'
+
+project(':account-service').projectDir = "$rootDir/account-service" as File
+project(':discovery-service').projectDir = "$rootDir/discovery-service" as File
+project(':gateway-service').projectDir = "$rootDir/gateway-service" as File
+project(':order-service').projectDir = "$rootDir/order-service" as File
+project(':product-service').projectDir = "$rootDir/product-service" as File
+project(':messaging-common').projectDir = "$rootDir/messaging-common" as File

@@ -2,8 +2,8 @@ spring:
   application:
     name: order-service
   rabbitmq:
-    host: 192.168.99.100
-    port: 15672
+    host: localhost
+    port: 5672
   cloud:  
     stream:
       bindings:

@@ -1,8 +1,8 @@
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\model\Product.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\controller\AccountController.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\service\AccountService.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\model\Account.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\AccountApplication.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\messaging\OrderSender.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\repository\AccountRepository.java
-C:\workspace\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\client\ProductClient.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\messaging\OrderSender.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\repository\AccountRepository.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\AccountApplication.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\model\Product.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\service\AccountService.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\model\Account.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\client\ProductClient.java
+C:\work\spring-cloud-stream-messaging\account-service\src\main\java\com\nilanjan\services\account\controller\AccountController.java

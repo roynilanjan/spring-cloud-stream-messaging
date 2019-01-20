@@ -1,0 +1,7 @@
+
+description = ''
+dependencies {
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-zuul', version:'1.4.0.RELEASE'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-starter-eureka', version:'1.4.0.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-actuator', version:'1.5.6.RELEASE'
+}

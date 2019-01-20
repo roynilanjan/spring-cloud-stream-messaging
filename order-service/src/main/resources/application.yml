@@ -2,21 +2,21 @@ spring:
   application:
     name: order-service
   rabbitmq:
-    host: localhost
+    host: 192.168.99.100
     port: 5672
   cloud:  
     stream:
       bindings:
         output:
           destination: orders-out
+          producer:
+            partitionKeyExpression: payload.customerId
+            partitionCount: 2
         input:
           destination: orders-in
       rabbit:
         bindings:
-          output:
-            producer:
-              exchangeType: direct
-              routingKeyExpression: '"#"'
+          
           input:
             consumer:
               exchangeType: direct
