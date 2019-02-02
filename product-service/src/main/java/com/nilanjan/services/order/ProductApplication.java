@@ -2,7 +2,9 @@ package com.nilanjan.services.order;
 
 import com.nilanjan.services.order.model.Product;
 import com.nilanjan.services.order.repository.ProductRepository;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
@@ -11,6 +13,8 @@ import org.springframework.web.filter.CommonsRequestLoggingFilter;
 /**
  * @author Nilanjan Roy
  */
+@SpringBootApplication
+@EnableDiscoveryClient
 public class ProductApplication {
 
     @LoadBalanced

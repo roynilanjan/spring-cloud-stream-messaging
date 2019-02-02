@@ -1,4 +1,0 @@
-com\nilanjan\services\order\repository\OrderRepository.class
-com\nilanjan\services\order\controller\OrderController.class
-com\nilanjan\services\order\messaging\OrderSender.class
-com\nilanjan\services\order\OrderApplication.class

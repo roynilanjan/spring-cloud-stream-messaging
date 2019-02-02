@@ -21,6 +21,7 @@
       <module name="messaging-common" target="1.8" />
       <module name="order-service" target="1.8" />
       <module name="product-service" target="1.8" />
+      <module name="spring-cloud-hystrix-demo" target="1.5" />
       <module name="spring-cloud-stream-messaging" target="1.8" />
     </bytecodeTargetLevel>
   </component>
