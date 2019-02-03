@@ -1,0 +1,8 @@
+com\nilanjan\services\customer\model\Customer.class
+com\nilanjan\services\customer\CustomerApplication.class
+com\nilanjan\services\customer\model\Inventory.class
+com\nilanjan\services\customer\controller\CustomerController.class
+com\nilanjan\services\customer\repository\CustomerRepository.class
+com\nilanjan\services\customer\client\InventoryClient.class
+com\nilanjan\services\customer\service\CustomerService.class
+com\nilanjan\services\customer\messaging\OrderSender.class

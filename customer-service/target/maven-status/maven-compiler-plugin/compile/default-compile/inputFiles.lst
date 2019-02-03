@@ -1,0 +1,8 @@
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\CustomerApplication.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\client\InventoryClient.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\model\Customer.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\controller\CustomerController.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\messaging\OrderSender.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\repository\CustomerRepository.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\service\CustomerService.java
+C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services\customer\model\Inventory.java

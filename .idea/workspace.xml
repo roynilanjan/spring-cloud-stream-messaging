@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0de0c099-54ee-4a7d-985b-5f33388e1200" name="Default" comment="" />
+    <list default="true" id="0de0c099-54ee-4a7d-985b-5f33388e1200" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/inventory-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/inventory-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/inventory-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/inventory-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inventory-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/inventory-service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-common/target/classes/com/nilanjan/services/messaging/OrderStatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/target/classes/com/nilanjan/services/messaging/OrderStatus.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/messaging-common/target/messaging-common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/target/messaging-common-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/surefire/surefirebooter7578366716750576238.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/test-classes/com/nilanjan/services/order/OrderControllerTest.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/messaging-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/account-service/target/" />
@@ -29,15 +49,6 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inventory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/model/Inventory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -90,8 +101,8 @@
       <file leaf-file-name="CustomerService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/service/CustomerService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+            <state relative-caret-position="231">
+              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,17 +110,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="234">
+              <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shopping-cart-microservice.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/customer-service/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-cart-microservice.xml" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/external_build_system/shopping-cart-microservice.84b343ff/modules/shopping-cart-microservice.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
@@ -118,33 +146,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Customer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/model/Customer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="66" selection-start-line="12" selection-start-column="66" selection-end-line="12" selection-end-column="66" />
-              <folding>
-                <element signature="e#231#232#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#380#381#0" expanded="true" />
-                <element signature="e#424#425#0" expanded="true" />
-                <element signature="e#460#461#0" expanded="true" />
-                <element signature="e#491#492#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#602#603#0" expanded="true" />
-                <element signature="e#637#638#0" expanded="true" />
-                <element signature="e#670#671#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -277,47 +278,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="customer" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
@@ -332,44 +293,7 @@
             <path>
               <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="customer-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging-common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-stream-messaging" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-stream-messaging" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="messaging" type="462c0819:PsiDirectoryNode" />
+              <item name="order-service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -400,6 +324,7 @@
       <recent name="com.nilanjan.services.customer.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\work\spring-cloud-stream-messaging" />
       <recent name="C:\work\spring-cloud-stream-messaging\customer-service\src\main\java\com\nilanjan\services" />
       <recent name="C:\work\spring-cloud-stream-messaging\inventory-service\src\main\resources" />
     </key>
@@ -573,12 +498,12 @@
       <workItem from="1549111602271" duration="4300000" />
       <workItem from="1549132335828" duration="516000" />
       <workItem from="1549132888935" duration="2054000" />
-      <workItem from="1549192245075" duration="10541000" />
+      <workItem from="1549192245075" duration="11223000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60187000" />
+    <option name="totallyTimeSpent" value="60869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -586,7 +511,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5003903" side_tool="true" weight="0.4506803" />
-      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.12958626" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.12334114" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -604,8 +529,8 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960968" weight="0.39455783" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4489796" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24434036" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.08503401" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23497267" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
@@ -627,13 +552,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/nilanjan/services/discovery/DiscoveryApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/nilanjan/services/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -827,13 +745,6 @@
     <entry file="file://$PROJECT_DIR$/order-service/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/customer-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/order-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -967,10 +878,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/external_build_system/shopping-cart-microservice.84b343ff/modules/shopping-cart-microservice.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/customer-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="44" column="33" selection-start-line="44" selection-start-column="33" selection-end-line="44" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/service/CustomerService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="42" column="48" selection-start-line="42" selection-start-column="48" selection-end-line="42" selection-end-column="48" />
+        <state relative-caret-position="231">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -979,13 +903,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="234">
+          <caret line="49" column="9" lean-forward="true" selection-start-line="49" selection-start-column="9" selection-end-line="49" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/external_build_system/shopping-cart-microservice.84b343ff/modules/shopping-cart-microservice.xml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
