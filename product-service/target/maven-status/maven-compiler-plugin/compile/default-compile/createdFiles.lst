@@ -1,4 +1,0 @@
-com\nilanjan\services\order\model\Product.class
-com\nilanjan\services\order\ProductApplication.class
-com\nilanjan\services\order\repository\ProductRepository.class
-com\nilanjan\services\order\controller\ProductController.class

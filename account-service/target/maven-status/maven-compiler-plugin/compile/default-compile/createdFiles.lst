@@ -1,8 +1,0 @@
-com\nilanjan\services\account\client\ProductClient.class
-com\nilanjan\services\account\messaging\OrderSender.class
-com\nilanjan\services\account\service\AccountService.class
-com\nilanjan\services\account\repository\AccountRepository.class
-com\nilanjan\services\account\model\Product.class
-com\nilanjan\services\account\controller\AccountController.class
-com\nilanjan\services\account\model\Account.class
-com\nilanjan\services\account\AccountApplication.class

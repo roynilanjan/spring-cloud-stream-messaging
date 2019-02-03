@@ -1,0 +1,4 @@
+com\nilanjan\services\repository\InventoryRepository.class
+com\nilanjan\services\controller\InventoryController.class
+com\nilanjan\services\InventoryApplication.class
+com\nilanjan\services\model\Inventory.class
