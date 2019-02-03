@@ -1,83 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0de0c099-54ee-4a7d-985b-5f33388e1200" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/inventory-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_9_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_hystrix_9_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_9_5_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_animal_sniffer_annotation_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_feign_1_4_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_1_4_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_ribbon_1_4_0_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/account-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/AccountApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/client/ProductClient.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/controller/AccountController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/messaging/OrderSender.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/model/Account.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/repository/AccountRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/java/com/nilanjan/services/account/service/AccountService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/account-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/AccountApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/client/ProductClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/controller/AccountController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/messaging/OrderSender.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/model/Account.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/repository/AccountRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/com/nilanjan/services/account/service/AccountService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/account-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/discovery-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/gateway-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/gateway-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/gateway-service-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway-service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway-service/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-common/src/main/java/com/nilanjan/services/messaging/OrderStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/src/main/java/com/nilanjan/services/messaging/OrderStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-common/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/messaging-common/target/messaging-common-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/messaging-common/target/messaging-common-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/test/java/com/nilanjan/services/order/OrderControllerTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/product-service.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/nilanjan/services/order/ProductApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/nilanjan/services/order/controller/ProductController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/nilanjan/services/order/model/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/nilanjan/services/order/repository/ProductRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/nilanjan/services/order/ProductApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/nilanjan/services/order/controller/ProductController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/nilanjan/services/order/model/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/nilanjan/services/order/repository/ProductRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/logback-spring.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/product-service-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/product-service-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" />
-    </list>
+    <list default="true" id="0de0c099-54ee-4a7d-985b-5f33388e1200" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/messaging-common/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/account-service/target/" />
@@ -97,15 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InventoryApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inventory-service/src/main/java/com/nilanjan/services/InventoryApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="32" column="52" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="InventoryClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/client/InventoryClient.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -184,13 +99,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shopping-cart-microservice.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/external_build_system/shopping-cart-microservice.84b343ff/modules/shopping-cart-microservice.xml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="OrderStatus.java" pinned="false" current-in-tab="false">
@@ -653,12 +573,12 @@
       <workItem from="1549111602271" duration="4300000" />
       <workItem from="1549132335828" duration="516000" />
       <workItem from="1549132888935" duration="2054000" />
-      <workItem from="1549192245075" duration="9759000" />
+      <workItem from="1549192245075" duration="10541000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59405000" />
+    <option name="totallyTimeSpent" value="60187000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -684,11 +604,11 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960968" weight="0.39455783" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.09863946" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24434036" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4489796" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24434036" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3265306" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3265306" />
       <window_info anchor="right" id="Gradle" order="4" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -707,13 +627,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/order-service/src/main/java/com/nilanjan/services/order/messaging/OrderSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/discovery-service/src/main/java/com/nilanjan/services/discovery/DiscoveryApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1067,9 +980,12 @@
     <entry file="file://$PROJECT_DIR$/customer-service/src/main/java/com/nilanjan/services/customer/CustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IntelliJIdea2018.1/system/external_build_system/shopping-cart-microservice.84b343ff/modules/shopping-cart-microservice.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
