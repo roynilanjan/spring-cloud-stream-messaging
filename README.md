@@ -8,8 +8,8 @@ In this application I introduce a simple order processing application using the 
 It consists of four independent microservices. 
 **gateway-service**,
 **order-service**,
-**account-service** and 
-**product-service**
+**customer-service** and 
+**inventory-service**
 
 Communication between **order-service** and the **customer-service** happens through orders-request and orders-reply channels .Since order-service is the source of the message ,
 it sends messages to it's request channel. On the other hand, customer-service
