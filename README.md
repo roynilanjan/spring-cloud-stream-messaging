@@ -20,7 +20,7 @@ communication between them would fail.This configuration has been provided in th
 Call to the Order-service from an external client comes through the API gateway .Order service receives the order and saves it in the repository and sends the order details message to the orders-out channel. Account-service receives the order from the orders-out channel , validates the customer id and calls the product-service over the rest endpoint and retrieves the product ids . If customer has sufficient balance to place the order it sets the order to ACCEPTED else sets the status to REJECTED and send this order status to the orders-in channel . Order-service receives the order status from the orders-in channel and updates the status to the client when requested over an endpoint. Following diagram shows the architecture of the application.
 
 
-
+![order_processing](https://user-images.githubusercontent.com/9249786/52193963-c56d3a80-2877-11e9-9a82-33498f05c037.png)
 
 
 
