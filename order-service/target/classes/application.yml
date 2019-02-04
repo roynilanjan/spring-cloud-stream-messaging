@@ -8,15 +8,15 @@ spring:
     stream:
       bindings:
         output:
-          destination: orders-out
-          producer:
-            partitionKeyExpression: payload.customerId
-            partitionCount: 2
+          destination: orders-request
         input:
-          destination: orders-in
+          destination: orders-reply
       rabbit:
         bindings:
-          
+          output:
+            producer:
+              exchangeType: direct
+              routingKeyExpression: '"#"'
           input:
             consumer:
               exchangeType: direct
