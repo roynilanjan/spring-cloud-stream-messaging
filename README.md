@@ -21,6 +21,8 @@ Call to the Order-service from an external client comes through the API gateway 
 
 
 **How to Build** : Clone the project and run **mvn clean install** at the root of the project directory.
+
+
 **How to Run**   : Start the discovery application first and then the individual spring boot applications from your IDE.
 
 ##### For the newbies to Spring Cloud stream , Spring Boot and AMQP :
