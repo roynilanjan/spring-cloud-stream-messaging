@@ -20,7 +20,7 @@ Call to the Order-service from an external client comes through the API gateway 
 ![order_processing](https://user-images.githubusercontent.com/9249786/52193963-c56d3a80-2877-11e9-9a82-33498f05c037.png)
 
 
-
+How to Build : clone the project and run mvn clean install from at the root of the project directory.
 ##### For the newbies to Spring Cloud stream , Spring Boot and AMQP :
 
 ###### RabbitMQ with AMQP: https://www.slideshare.net/roynilanjan/the-amqp-model
