@@ -38,6 +38,7 @@ public class CustomerService {
         List<Customer> customers =  customerRepository.findByCustomer(order.getCustomerId());
         Customer customer = customers.get(0);
         LOGGER.info("Customer found: {}", mapper.writeValueAsString(customer));
+        System.out.println("");
         List<Inventory> inventories = inventoryClient.findByIds(order.getProductIds());
         LOGGER.info("Products found: {}", mapper.writeValueAsString(inventories));
         inventories.forEach(p -> order.setPrice(order.getPrice() + p.getPrice()));

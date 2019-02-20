@@ -26,6 +26,7 @@ public class InventoryRepository {
     }
 
     public Inventory findById(Long id) {
+        System.out.println("findById = " + id);
         Optional<Inventory> product = inventories.stream().filter(p -> p.getId().equals(id)).findFirst();
         if (product.isPresent())
             return product.get();
