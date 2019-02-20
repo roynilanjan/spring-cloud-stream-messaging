@@ -20,6 +20,10 @@ Call to the Order-service from an external client comes through the API gateway 
 ![order_processing](https://user-images.githubusercontent.com/9249786/52193963-c56d3a80-2877-11e9-9a82-33498f05c037.png)
 
 
+**How to Build** : Clone the project and run **mvn clean install** at the root of the project directory.
+
+
+**How to Run**   : Start the discovery application first and then the individual spring boot applications from your IDE. If you are using Intelij , you can enable the dashboard where you can see monitor the logs for all the applications. Now run the OrderControllerTest. 
 
 ##### For the newbies to Spring Cloud stream , Spring Boot and AMQP :
 
