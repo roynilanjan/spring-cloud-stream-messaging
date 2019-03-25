@@ -3,7 +3,7 @@
 ## Introduction :
 
 Spring Cloud Stream is a framework built on top of Spring Boot and Spring Integration framework,  that helps in creating event-driven microservices at scale.
-In this application I introduce a simple order processing application using the capability of Spring Cloud Stream , following the  event driven micoservice architecture. 
+In this application I introduce a simple order processing application using the capability of Spring Cloud Stream - following the  event driven microservice architecture. 
 ## Overview of the application : 
 It consists of four independent microservices. 
 **gateway-service**,
